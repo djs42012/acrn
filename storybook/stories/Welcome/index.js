@@ -8,13 +8,15 @@ export default class Welcome extends React.Component {
       flex: 1,
       padding: 24,
       justifyContent: 'center',
+      alignItems: 'center',
     },
     header: {
-      fontSize: 18,
+      fontSize: 28,
       marginBottom: 18,
+      color: 'purple',
     },
     content: {
-      fontSize: 12,
+      fontSize: 18,
       marginBottom: 10,
       lineHeight: 18,
     },
